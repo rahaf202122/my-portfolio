@@ -1,0 +1,162 @@
+html{
+      scroll-behavior: smooth;
+}
+/* ====body===== */
+body{
+   background-color: rgb(19, 5, 64); ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+ }
+ /*----------- header--------- */
+header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left :0;
+    width: 100%;
+    padding: 10px ;
+    border-bottom: 1px solid rgb(208, 201, 201); 
+}
+.logo{
+    position: relative;
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    flex-wrap: wrap;
+}
+.list{
+  text-align: top;
+     /* to remove points from unorder list */
+  list-style-type:none;
+  display: flex;
+  gap :60px;
+  margin: 0;
+  padding: 0;
+}
+.item{
+       margin-right: 30px;
+}
+
+.menu{
+   width: 100%;
+   display: flex;
+    gap: 30px;
+    list-style: none;
+    color: rgb(221, 230, 234);
+    font-size: 20px;
+    margin-right: 30px;
+    justify-content: space-between;
+     align-items: center;
+}
+.link{
+    /* to delete the under line */
+    text-decoration: none; 
+    /* to  make the buttons white */
+    color:rgb(208, 201, 201);
+    font-weight: bold;
+    align-items: end;
+}
+.link:hover {
+    /* give sienna color when click */
+    color:  sienna;
+}
+
+/* -----box of my inormation----- */
+h1{
+    color:rgb(208, 201, 201);
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+p{
+    color: rgb(208, 201, 201);
+    font-size: 30px;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.name{
+    color: sienna;
+    font-size: 29px;
+}
+.boxinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 40px 60px;
+    gap: 100px;
+    height: 100vh;
+}
+.aboutme{
+    font-size: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    /* extremly left */
+    align-items: flex-start; 
+    color: rgb(208, 201, 201);
+}
+.picture{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+
+     border-style: groove;
+     box-shadow: 15px 15px 15px  sienna;
+     object-fit: cover;
+
+}
+/* --------buttom menue------- */
+.logoLinkedin{
+   
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    flex-wrap: wrap;
+     mix-blend-mode: multiply;
+     
+}
+.logoFacebook{
+    
+    position: relative;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    flex-wrap: wrap;
+     mix-blend-mode: multiply;
+    transition: 0.3s;
+
+}
+.logoGithub{
+    position: relative;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    flex-wrap: wrap;
+    mix-blend-mode: multiply;
+
+}
+.conect{
+    border-top: 1px solid rgb(208, 201, 201); /*line*/
+    padding: 20px;
+    color: black;
+    background-color: sienna;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+    align-items: center;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
